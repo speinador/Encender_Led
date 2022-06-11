@@ -1,0 +1,14 @@
+int pos = 8; 
+  
+void setup()
+{
+  pinMode(pos, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(pos, HIGH);
+  delay(1000); // Wait for 1000 millisecond(s)
+  digitalWrite(pos, LOW);
+  delay(1000); // Wait for 1000 millisecond(s)
+}
